@@ -1,0 +1,159 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:2:1-78:12
+INJECTED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:2:1-78:12
+INJECTED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:2:1-78:12
+INJECTED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:2:1-78:12
+MERGED from [com.android.support:appcompat-v7:21.0.2] C:\Users\Personal\.gradle\caches\transforms-2\files-2.1\94a59859ed53795b8d02d7f9f4179758\appcompat-v7-21.0.2\AndroidManifest.xml:14:4-17:12
+MERGED from [com.android.support:support-v4:21.0.2] C:\Users\Personal\.gradle\caches\transforms-2\files-2.1\d88630ad3a26392996725209742b443f\support-v4-21.0.2\AndroidManifest.xml:14:4-17:12
+INJECTED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:2:1-78:12
+INJECTED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:2:1-78:12
+INJECTED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:2:1-78:12
+	package
+		ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:3:5-47
+		INJECTED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:2:1-78:12
+		INJECTED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:2:1-78:12
+		INJECTED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.READ_SYNC_SETTINGS
+ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:9:5-10:63
+	android:name
+		ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:10:9-61
+uses-permission#android.permission.WRITE_SYNC_SETTINGS
+ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:11:5-12:64
+	android:name
+		ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:12:9-62
+uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
+ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:13:5-14:66
+	android:name
+		ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:14:9-64
+application
+ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:16:5-76:19
+MERGED from [com.android.support:appcompat-v7:21.0.2] C:\Users\Personal\.gradle\caches\transforms-2\files-2.1\94a59859ed53795b8d02d7f9f4179758\appcompat-v7-21.0.2\AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:appcompat-v7:21.0.2] C:\Users\Personal\.gradle\caches\transforms-2\files-2.1\94a59859ed53795b8d02d7f9f4179758\appcompat-v7-21.0.2\AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:support-v4:21.0.2] C:\Users\Personal\.gradle\caches\transforms-2\files-2.1\d88630ad3a26392996725209742b443f\support-v4-21.0.2\AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:support-v4:21.0.2] C:\Users\Personal\.gradle\caches\transforms-2\files-2.1\d88630ad3a26392996725209742b443f\support-v4-21.0.2\AndroidManifest.xml:16:5-19
+	android:label
+		ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:19:9-41
+	android:icon
+		ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:18:9-43
+	android:allowBackup
+		ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:17:9-35
+	android:theme
+		ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:20:9-40
+activity#com.example.android.sunshine.app.MainActivity
+ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:21:9-30:20
+	android:label
+		ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:24:13-45
+	android:theme
+		ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:23:13-49
+	android:name
+		ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:22:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:25:13-29:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:28:27-74
+activity#com.example.android.sunshine.app.DetailActivity
+ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:31:9-38:20
+	android:parentActivityName
+		ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:34:13-55
+	android:label
+		ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:33:13-58
+	android:name
+		ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:32:13-43
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:35:13-37:81
+	android:value
+		ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:37:17-78
+	android:name
+		ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:36:17-63
+activity#com.example.android.sunshine.app.SettingsActivity
+ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:39:9-47:20
+	android:parentActivityName
+		ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:42:13-55
+	android:label
+		ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:41:13-60
+	android:theme
+		ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:43:13-49
+	android:name
+		ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:40:13-45
+provider#com.example.android.sunshine.app.data.WeatherProvider
+ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:48:9-52:39
+	android:authorities
+		ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:49:13-60
+	android:syncable
+		ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:52:13-36
+	android:exported
+		ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:51:13-37
+	android:name
+		ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:50:13-49
+service#com.example.android.sunshine.app.sync.SunshineAuthenticatorService
+ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:55:9-62:19
+	android:name
+		ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:55:18-67
+intent-filter#action:name:android.accounts.AccountAuthenticator
+ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:56:13-58:29
+action#android.accounts.AccountAuthenticator
+ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:57:17-80
+	android:name
+		ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:57:25-77
+meta-data#android.accounts.AccountAuthenticator
+ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:59:13-61:57
+	android:resource
+		ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:61:17-54
+	android:name
+		ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:60:17-69
+service#com.example.android.sunshine.app.sync.SunshineSyncService
+ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:65:9-75:19
+	android:exported
+		ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:67:13-36
+	android:name
+		ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:66:13-53
+intent-filter#action:name:android.content.SyncAdapter
+ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:69:13-71:29
+action#android.content.SyncAdapter
+ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:70:17-70
+	android:name
+		ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:70:25-67
+meta-data#android.content.SyncAdapter
+ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:72:13-74:55
+	android:resource
+		ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:74:17-52
+	android:name
+		ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:73:17-59
+uses-sdk
+INJECTED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:21.0.2] C:\Users\Personal\.gradle\caches\transforms-2\files-2.1\94a59859ed53795b8d02d7f9f4179758\appcompat-v7-21.0.2\AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:appcompat-v7:21.0.2] C:\Users\Personal\.gradle\caches\transforms-2\files-2.1\94a59859ed53795b8d02d7f9f4179758\appcompat-v7-21.0.2\AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:support-v4:21.0.2] C:\Users\Personal\.gradle\caches\transforms-2\files-2.1\d88630ad3a26392996725209742b443f\support-v4-21.0.2\AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:support-v4:21.0.2] C:\Users\Personal\.gradle\caches\transforms-2\files-2.1\d88630ad3a26392996725209742b443f\support-v4-21.0.2\AndroidManifest.xml:15:5-42
+INJECTED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml
