@@ -1,0 +1,146 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.android.sunshine.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="10"
+8-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="21" />
+9-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml
+10
+11    <!-- This permission is necessary in order for Sunshine to perform network access. -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:6:22-64
+13
+14    <!-- Permissions required by the sync adapter -->
+15    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+15-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:9:5-10:63
+15-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:10:9-61
+16    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+16-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:11:5-12:64
+16-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:12:9-62
+17    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+17-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:13:5-14:66
+17-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:14:9-64
+18
+19    <application
+19-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:16:5-76:19
+20        android:allowBackup="true"
+20-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:17:9-35
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:18:9-43
+23        android:label="@string/app_name"
+23-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:19:9-41
+24        android:testOnly="true"
+25        android:theme="@style/AppTheme" >
+25-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:20:9-40
+26        <activity
+26-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:21:9-30:20
+27            android:name="com.example.android.sunshine.app.MainActivity"
+27-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:22:13-41
+28            android:label="@string/app_name"
+28-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:24:13-45
+29            android:theme="@style/ForecastTheme" >
+29-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:23:13-49
+30            <intent-filter>
+30-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:25:13-29:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:26:17-69
+31-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:26:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:28:17-77
+33-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:28:27-74
+34            </intent-filter>
+35        </activity>
+36        <activity
+36-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:31:9-38:20
+37            android:name="com.example.android.sunshine.app.DetailActivity"
+37-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:32:13-43
+38            android:label="@string/title_activity_detail"
+38-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:33:13-58
+39            android:parentActivityName="com.example.android.sunshine.app.MainActivity" >
+39-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:34:13-55
+40            <meta-data
+40-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:35:13-37:81
+41                android:name="android.support.PARENT_ACTIVITY"
+41-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:36:17-63
+42                android:value="com.example.android.sunshine.app.MainActivity" />
+42-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:37:17-78
+43        </activity>
+44        <activity
+44-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:39:9-47:20
+45            android:name="com.example.android.sunshine.app.SettingsActivity"
+45-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:40:13-45
+46            android:label="@string/title_activity_settings"
+46-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:41:13-60
+47            android:parentActivityName="com.example.android.sunshine.app.MainActivity"
+47-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:42:13-55
+48            android:theme="@style/SettingsTheme" >
+48-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:43:13-49
+49            <meta-data
+49-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:35:13-37:81
+50                android:name="android.support.PARENT_ACTIVITY"
+50-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:36:17-63
+51                android:value="com.example.android.sunshine.app.MainActivity" />
+51-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:37:17-78
+52        </activity>
+53
+54        <provider
+54-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:48:9-52:39
+55            android:name="com.example.android.sunshine.app.data.WeatherProvider"
+55-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:50:13-49
+56            android:authorities="@string/content_authority"
+56-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:49:13-60
+57            android:exported="false"
+57-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:51:13-37
+58            android:syncable="true" />
+58-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:52:13-36
+59
+60        <!-- SyncAdapter's dummy authentication service -->
+61        <service android:name="com.example.android.sunshine.app.sync.SunshineAuthenticatorService" >
+61-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:55:9-62:19
+61-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:55:18-67
+62            <intent-filter>
+62-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:56:13-58:29
+63                <action android:name="android.accounts.AccountAuthenticator" />
+63-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:57:17-80
+63-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:57:25-77
+64            </intent-filter>
+65
+66            <meta-data
+66-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:59:13-61:57
+67                android:name="android.accounts.AccountAuthenticator"
+67-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:60:17-69
+68                android:resource="@xml/authenticator" />
+68-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:61:17-54
+69        </service>
+70
+71        <!-- The SyncAdapter service -->
+72        <service
+72-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:65:9-75:19
+73            android:name="com.example.android.sunshine.app.sync.SunshineSyncService"
+73-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:66:13-53
+74            android:exported="true" >
+74-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:67:13-36
+75            <intent-filter>
+75-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:69:13-71:29
+76                <action android:name="android.content.SyncAdapter" />
+76-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:70:17-70
+76-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:70:25-67
+77            </intent-filter>
+78
+79            <meta-data
+79-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:72:13-74:55
+80                android:name="android.content.SyncAdapter"
+80-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:73:17-59
+81                android:resource="@xml/syncadapter" />
+81-->C:\Users\Personal\AndroidStudioProjects\Sunshine-Version-2\app\src\main\AndroidManifest.xml:74:17-52
+82        </service>
+83    </application>
+84
+85</manifest>
