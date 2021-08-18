@@ -1,0 +1,35 @@
+com/example/android/sunshine/app/ForecastAdapter.java
+ com.example.android.sunshine.app.ForecastAdapter
+ com.example.android.sunshine.app.ForecastAdapter$ViewHolder
+com/example/android/sunshine/app/ForecastFragment.java
+ com.example.android.sunshine.app.ForecastFragment
+ com.example.android.sunshine.app.ForecastFragment$1
+ com.example.android.sunshine.app.ForecastFragment$Callback
+com/example/android/sunshine/app/sync/SunshineAuthenticatorService.java
+ com.example.android.sunshine.app.sync.SunshineAuthenticatorService
+com/example/android/sunshine/app/Utility.java
+ com.example.android.sunshine.app.Utility
+com/example/android/sunshine/app/data/WeatherProvider.java
+ com.example.android.sunshine.app.data.WeatherProvider
+com/example/android/sunshine/app/sync/SunshineSyncService.java
+ com.example.android.sunshine.app.sync.SunshineSyncService
+com/example/android/sunshine/app/data/WeatherContract.java
+ com.example.android.sunshine.app.data.WeatherContract
+ com.example.android.sunshine.app.data.WeatherContract$LocationEntry
+ com.example.android.sunshine.app.data.WeatherContract$WeatherEntry
+com/example/android/sunshine/app/MainActivity.java
+ com.example.android.sunshine.app.MainActivity
+com/example/android/sunshine/app/SettingsActivity.java
+ com.example.android.sunshine.app.SettingsActivity
+com/example/android/sunshine/app/BuildConfig.java
+ com.example.android.sunshine.app.BuildConfig
+com/example/android/sunshine/app/data/WeatherDbHelper.java
+ com.example.android.sunshine.app.data.WeatherDbHelper
+com/example/android/sunshine/app/DetailFragment.java
+ com.example.android.sunshine.app.DetailFragment
+com/example/android/sunshine/app/sync/SunshineSyncAdapter.java
+ com.example.android.sunshine.app.sync.SunshineSyncAdapter
+com/example/android/sunshine/app/sync/SunshineAuthenticator.java
+ com.example.android.sunshine.app.sync.SunshineAuthenticator
+com/example/android/sunshine/app/DetailActivity.java
+ com.example.android.sunshine.app.DetailActivity
