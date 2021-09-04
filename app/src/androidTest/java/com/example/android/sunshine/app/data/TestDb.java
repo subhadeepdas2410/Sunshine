@@ -1,18 +1,4 @@
-/*
- * Copyright (C) 2014 The Android Open Source Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
+
 package com.example.android.sunshine.app.data;
 
 import android.content.ContentValues;
@@ -39,15 +25,7 @@ public class TestDb extends AndroidTestCase {
         deleteTheDatabase();
     }
 
-    /*
-        Students: Uncomment this test once you've written the code to create the Location
-        table.  Note that you will have to have chosen the same column names that I did in
-        my solution for this test to compile, so if you haven't yet done that, this is
-        a good time to change your column names to match mine.
-
-        Note that this only tests that the Location table has the correct columns, since we
-        give you the code for the weather table.  This test does not look at the
-     */
+    
     public void testCreateDb() throws Throwable {
         // build a HashSet of all of the table names we wish to look for
         // Note that there will be another table in the DB that stores the
@@ -105,30 +83,14 @@ public class TestDb extends AndroidTestCase {
         db.close();
     }
 
-    /*
-        Students:  Here is where you will build code to test that we can insert and query the
-        location database.  We've done a lot of work for you.  You'll want to look in TestUtilities
-        where you can uncomment out the "createNorthPoleLocationValues" function.  You can
-        also make use of the ValidateCurrentRecord function from within TestUtilities.
-    */
+    
     public void testLocationTable() {
         insertLocation();
     }
 
-    /*
-        Students:  Here is where you will build code to test that we can insert and query the
-        database.  We've done a lot of work for you.  You'll want to look in TestUtilities
-        where you can use the "createWeatherValues" function.  You can
-        also make use of the validateCurrentRecord function from within TestUtilities.
-     */
+    
     public void testWeatherTable() {
-        // First insert the location, and then use the locationRowId to insert
-        // the weather. Make sure to cover as many failure cases as you can.
-
-        // Instead of rewriting all of the code we've already written in testLocationTable
-        // we can move this code to insertLocation and then call insertLocation from both
-        // tests. Why move it? We need the code to return the ID of the inserted location
-        // and our testLocationTable can only return void because it's a test.
+        
 
         long locationRowId = insertLocation();
 
@@ -177,11 +139,7 @@ public class TestDb extends AndroidTestCase {
     }
 
 
-    /*
-        Students: This is a helper method for the testWeatherTable quiz. You can move your
-        code from testLocationTable to here so that you can call this code from both
-        testWeatherTable and testLocationTable.
-     */
+    
     public long insertLocation() {
         // First step: Get reference to writable database
         // If there's an error in those massive SQL table creation Strings,
